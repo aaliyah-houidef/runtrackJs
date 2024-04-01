@@ -1,0 +1,25 @@
+body {
+    min-height: 4096px;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    transition: background-color 0.3s ease;
+}
+body.scroll-25 footer {
+    background-color: blue ;
+}
+body.scroll-50 footer {
+    background-color: black ;
+}
+body.scroll-75 footer {
+    background-color: rgb(122, 6, 6) ;
+}
+body.scroll-100 footer {
+    background-color: rgb(91, 91, 91) ;
+}
